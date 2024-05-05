@@ -1,0 +1,13 @@
+@receita
+
+nomeReceita:
+
+ingredientes:
+
+modoPreparo:
+
+tipoReceita:
+
+img:
+
+descReceita:

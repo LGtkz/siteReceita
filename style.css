@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    background-color: #FFC61A;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30rem;
+}
+
+nav > div > img{
+    width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.navega{
+    display: flex;
+    text-align: right;
+    gap: 4rem;
+}
+
+.navega > a{
+    text-decoration: none;
+    color: #372A28;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    transition: all 2s;    
+}
+
+.navega > a:hover{
+    background-color: #372A28;
+    color: #FFC61A;
+    transition: all 2s;
+}
+
+#pagAtual{
+    background-color: #372A28;
+    color: #FFC61A;
+}
+
+.apresenta{
+    color: #372A28;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 4rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px #372A28;
+}
+
+.textoApresenta{
+    font-size: 1rem;
+    margin: 1rem 5rem;
+    text-align: center;
+    color: #372A28;
+    font-weight: 500;
+}
+
+.explore{
+    color: #372A28;
+    font-size: 1.2rem;
+    margin: 4rem 4rem 4rem 4rem;
+}
+
+#separa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#buscar{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    background-color: #372A28;
+    color: #FFC61A;
+    text-align: center;
+}
+
+.almoco{
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    gap: 1rem;
+    max-height: 500px;
+    height: 100%;
+}
+
+.almoco > img{
+    width: 100%;
+}
+
+.insta > a{
+    text-decoration: none;
+    color: #372A28;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    border-top: #372A28 solid 1px;
+    color: #372A28;
+    font-size: 1.1rem;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div > a{
+    text-decoration: none;
+    color: #372A28;
+}
+
+.insta{
+    gap: 1rem;
+}
+
+.pags{
+    gap: 1rem;
+}
+
+.pags > a{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 12px;
+    transition: all 2s;
+}
+
+.identidade{
+    font-size: 2rem;
+}
+
+.identidade > p{
+    font-size: 1rem;
+}
+
+.pags > a:hover{
+    background-color: #372A28;
+    color: #FFC61A;
+    transition: all 2s;
+}
+
+#marcado{
+    background-color: #372A28;
+    color: #FFC61A;
+}
+
+.mb-3{
+    padding: 1rem 20rem;
+    text-transform: uppercase;
+    color: #372A28;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.receitas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receita-uni{
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 1rem;
+    min-height: 200px;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(55, 42, 40, 0.5);
+    transition: all 2s;
+}
+
+.receita-uni >  h4{
+    color: #372A28;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.receita-uni >  a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFC61A;
+    background-color: #372A28;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all 2s;
+}
+
+.receita-uni > a:hover{
+    background-color: #FFC61A;
+    border: solid 1px #372A28;
+    color: #372A28;
+    transition: all 1s;
+}
+
+.receita-uni:hover{
+    box-shadow: 0px 0px 100px 0px rgba(24, 19, 17, 0.5);
+    transition: all 2s;
+}
+
+.receita-uni > img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.tituloB{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    opacity: 90%;
+    position: relative;
+    text-align: center;
+}
+
+.tituloB h1 {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    font-size: 5rem;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+#desc{
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #372A28;
+}
+
+.ads{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.receita-fera{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #372A28;
+    padding: 1rem 4rem;
+}
+
+.ingredientes > h3, .preparo > h3{
+    font-size: 2rem;
+}
+
+.ingredientes > li, .preparo > li{
+    font-size: 1.2rem;
+}
+
+#tituloReceita{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #372A28;
+    padding: 1rem 3rem;
+}
+
+@media screen and (max-width: 720px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    nav > div > img{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+    }
+    .navega{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 1rem 1rem 0rem;
+    }
+    .navega > a{
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    footer > div{
+        padding: 1rem 4rem 1rem 2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer > div > p, h4{
+        text-align: center;
+
+    }
+
+    #separa{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .apresenta > h1{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        width: 100%;
+    }
+    
+    .apresenta > p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    
+    .textoApresenta{
+        font-size: 1rem;
+        color: #372A28;
+        font-weight: 300;
+        width: 100%;
+        margin: 1rem 4rem;
+    }
+    .explore{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .almoco{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 3rem;
+        width: auto;
+        max-width: auto;
+    }
+
+    .receitas{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .receita-uni{
+        padding: 1rem 3rem;
+        width: auto;
+        max-width: auto;
+    }
+
+    #titulo-receita{
+        font-size: 3rem;
+    }
+
+    .tituloB{
+        height: 300px;
+    }
+
+    #desc{
+        text-align: left;
+        font-size: 1rem;
+    }
+    aside{
+        display: none;
+    }
+
+    .ingredientes, .preparo{
+        text-align: left;
+    }
+}
+
+#titulo-receita{
+    text-shadow: -1px -1px 0 wheat,  1px -1px 0 rgb(250, 219, 161), -1px  1px 0 wheat,1px  1px 0 wheat; /* Contorno */
+}
